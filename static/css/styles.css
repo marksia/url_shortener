@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-top: 70px;
+  font-family: "Montserrat", sans-serif;
+  color: #36516b;
+  background-color: #ecf0f1;
+  font-size: 1.8em;
+}
+
+#home-banner {
+  /*background-color: #bdc3c7;*/
+  background-color: #ecf0f1;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-150 {
+  margin-top: 150px;
+}
