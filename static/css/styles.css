@@ -6,13 +6,58 @@ body {
   padding-top: 70px;
   font-family: "Montserrat", sans-serif;
   color: #36516b;
-  background-color: #ecf0f1;
+  background-color: #1abc9c;
   font-size: 1.8em;
 }
 
+/*  Navbar settings */
+.navbar {
+  background-color: #16a085;
+  margin-bottom: 0px;
+}
+.navbar-default {
+  border-bottom-style: none;
+}
+.navbar-default .navbar-brand {
+  color: #AFCFE5;
+  line-height: 70px;
+  height: 70px;
+  padding-top: 0px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #AFCFE5;
+  
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #AFCFE5;
+  line-height: 70px;
+  height: 70px;
+  padding-top: 0px;
+  font-size: 18px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #AFCFE5;
+}
+
+.navbar-default .navbar-toggle {
+  margin-top: 17px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #AFCFE5;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #1F608B;
+}
+/* End of navbar settings */
+
 #home-banner {
   /*background-color: #bdc3c7;*/
-  background-color: #ecf0f1;
+  background-color: #1abc9c;
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -22,6 +67,10 @@ body {
 
 .mt-40 {
   margin-top: 40px;
+}
+
+.mt-70 {
+  margin-top: 70px;
 }
 
 .mt-150 {
